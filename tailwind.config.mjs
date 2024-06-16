@@ -4,7 +4,11 @@ const { addIconSelectors } = require("@iconify/tailwind");
 export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        display: '"Space Grotesk"',
+      },
+    },
   },
   plugins: [
     addIconSelectors(["fluent-emoji", "logos", "material-symbols-light"]),
