@@ -20,6 +20,7 @@
     "typescript": "^5.4.5"
   },
   "devDependencies": {
+    "@iconify/tailwind": "^1.1.1",
     "unplugin-icons": "^0.19.0"
   }
 }
