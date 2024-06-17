@@ -1,51 +1,192 @@
 ---
+import "../styles/global.css";
 ---
 
-<body>
+<body class="font-display text-lg">
+  <h1 class="text-4xl">About</h1>
 
-  <h1>About</h1>
+  <h2 class="text-3xl flex items-center gap-2">
+    <p>Me</p><span
+      class="iconify-color fluent-emoji--person-blonde-hair-medium-light"
+    ></span>
+  </h2>
 
-<h2>Me </h2>
+  <p>
+    I'm <span class="no-underline decoration-wavy hover:underline"
+      >Angelo Thys</span
+    >, the writer of this blog. Passionate about development, system
+    administration and cybersecurity. Studying to become a self thought software
+    engineer.
+  </p>
 
-<p>
-My name is <em>Angelo Thys</em>, the writer of this blog.
-  Passionate about development, system administration and cybersecurity.
-  Studying to become a self thought software engineer.
-</p>
+  <h2 class="text-3xl">
+    Reasons <span class="iconify-color fluent-emoji--exclamation-question-mark"
+    ></span>
+  </h2>
 
-<h2>Reasons ❓</h2>
+  <p>The reasons for creating this blog are:</p>
 
-<p>The reasons for creating this blog are:</p>
+  <div class="flex items-center gap-2">
+    <span class="iconify-color fluent-emoji--crystal-ball size-8"></span>
+    <p>A glimpse into what I'm learning and doing</p>
+  </div>
 
-<ul>
-<li>🔮 A glimpse into what I'm learning and doing</li>
-<li>🖋️ Reinforce understanding of topics by writing about them</li>
-<li>🗃️ Self accountability</li>
-</ul>
+  <div class="flex items-center gap-2">
+    <span class="iconify-color fluent-emoji--pen size-8"></span>
+    <p>Reinforce understanding of topics by writing about them</p>
+  </div>
 
-<h2>Areas of interest 📚</h2>
+  <div class="flex items-center gap-2">
+    <span class="iconify-color fluent-emoji--card-file-box size-8"></span>
+    <p>Self accountability</p>
+  </div>
 
-<p>
-  What I write about varies a lot, and is motivated by my own learning
-  and understanding of topics.
-</p>
+  <h2 class="text-3xl">
+    Areas of interest <span class="iconify-color fluent-emoji--books"></span>
+  </h2>
 
+  <p>
+    What I write about varies a lot, and is motivated by my learning goals <span
+      class="iconify-color fluent-emoji--bullseye size-8"></span>
+  </p>
 
-<p>
-  However, my topics of interest
-  can be agglomerated under the following umbrellas ☂️:
-</p>
+  <h3 class="text-2xl">Development</h3>
 
-<ul>
-  <li>Algorithms and Data Structures (Possibly some leetcode 🤖)</li>
-  <li>Frontend development (React ⚛️, Astro 🚀 and vanilla 🍦)</li>
-  <li>Backend development (Python 🐉, Go 🦫 and Node.js 🟢)</li>
-  <li>Cybersecurity (Possibly some writeups 📝)</li>
-  <li>System Administration (services⚙️, networking 🌐 and docker 🐳)</li>
-</ul>
+  <h4 class="text-xl">Frontend</h4>
 
-<h2>The blog 📝</h2>
+  <div class="flex items-center gap-2">
+    <span class="iconify-color fluent-emoji--check-mark"></span>
+    <div class="flex items-center gap-1">
+      <p>Astro</p>
+      <span class="iconify-color skill-icons--astro size-8"></span>
+    </div>
+  </div>
 
-<p>The blog is made with <a href="https://astro.build/">Astro</a>🚀</p>
+  <div class="flex items-center gap-2">
+    <span class="iconify-color fluent-emoji--check-mark"></span>
+    <div class="flex items-center gap-1">
+      <p>Vanilla JS</p>
+      <span class="iconify-color fluent-emoji--soft-ice-cream size-8"></span>
+      <span class="iconify-color skill-icons--javascript size-8"></span>
+    </div>
+  </div>
 
+  <h4 class="text-xl">Backend</h4>
+
+  <div class="flex items-center gap-2">
+    <span class="iconify-color fluent-emoji--check-mark"></span>
+    <div class="flex items-center gap-1">
+      <p>Go</p>
+      <span class="iconify-color skill-icons--golang size-8"></span>
+    </div>
+  </div>
+
+  <div class="flex items-center gap-2">
+    <span class="iconify-color fluent-emoji--check-mark"></span>
+    <div class="flex items-center gap-1">
+      <p>Node.js</p>
+      <span class="iconify-color skill-icons--nodejs-dark size-8"></span>
+    </div>
+  </div>
+
+  <h4 class="text-xl">Scripting</h4>
+
+  <div class="flex items-center gap-2">
+    <span class="iconify-color fluent-emoji--check-mark"></span>
+    <div class="flex items-center gap-1">
+      <p>Python</p>
+      <span class="iconify-color skill-icons--python-dark size-8"></span>
+    </div>
+  </div>
+
+  <div class="flex items-center gap-2">
+    <span class="iconify-color fluent-emoji--check-mark"></span>
+    <div class="flex items-center gap-1">
+      <p>Bash</p>
+      <span class="iconify-color skill-icons--bash-dark size-8"></span>
+    </div>
+  </div>
+
+  <div class="flex items-center gap-2">
+    <span class="iconify-color fluent-emoji--check-mark"></span>
+    <div class="flex items-center gap-1">
+      <p>Fish</p>
+      <span class="iconify simple-icons--fishshell size-8"></span>
+    </div>
+  </div>
+
+  <h3 class="text-2xl">System Administration</h3>
+
+  <h5 class="text-xl">Provisioning</h5>
+
+  <div class="flex items-center gap-2">
+    <span class="iconify-color fluent-emoji--check-mark"></span>
+    <div class="flex items-center gap-1">
+      <p>Terraform</p>
+      <span class="iconify-color skill-icons--terraform-dark size-8"></span>
+    </div>
+  </div>
+
+  <h5 class="text-xl">Configuration</h5>
+
+  <div class="flex items-center gap-2">
+    <span class="iconify-color fluent-emoji--check-mark"></span>
+    <div class="flex items-center gap-1">
+      <p>Ansible</p>
+      <span class="iconify-color skill-icons--ansible size-8"></span>
+    </div>
+  </div>
+
+  <h5 class="text-xl">Vendor specific</h5>
+
+  <div class="flex items-center gap-2">
+    <span class="iconify-color fluent-emoji--check-mark"></span>
+    <div class="flex items-center gap-1">
+      <p>AWS CloudFormation</p>
+      <span class="iconify-color logos--aws-cloudformation size-8"></span>
+    </div>
+  </div>
+
+  <div class="flex items-center gap-2">
+    <span class="iconify-color fluent-emoji--check-mark"></span>
+    <div class="flex items-center gap-1">
+      <p>Azure Blueprint</p>
+      <span class="iconify-color skill-icons--azure-dark size-8"></span>
+    </div>
+  </div>
+
+  <h5 class="text-xl">Containers</h5>
+
+  <div class="flex items-center gap-2">
+    <span class="iconify-color fluent-emoji--check-mark"></span>
+    <div class="flex items-center gap-1">
+      <p>Kubernetes</p>
+      <span class="iconify-color skill-icons--kubernetes size-8"></span>
+    </div>
+  </div>
+
+  <div class="flex items-center gap-2">
+    <span class="iconify-color fluent-emoji--check-mark"></span>
+    <div class="flex items-center gap-1">
+      <p>Docker</p>
+      <span class="iconify-color skill-icons--docker size-8"></span>
+    </div>
+  </div>
+
+  <h4 class="text-2xl">Cybersecurity</h4>
+
+  <div class="flex items-center gap-2">
+    <span class="iconify-color fluent-emoji--check-mark"></span>
+    <div class="flex items-center gap-1">
+      <p>Writeups</p>
+      <span class="iconify-color fluent-emoji--bookmark-tabs size-8"></span>
+    </div>
+  </div>
+
+  <h2 class="text-3xl">The blog</h2>
+
+  <p>
+    The blog is made with <a href="https://astro.build/">Astro</a><span
+      class="iconify-color fluent-emoji--rocket size-8"></span>
+  </p>
 </body>
