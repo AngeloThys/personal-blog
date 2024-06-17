@@ -11,6 +11,11 @@ export default {
     },
   },
   plugins: [
-    addIconSelectors(["fluent-emoji", "logos", "material-symbols-light"]),
+    addIconSelectors([
+      "fluent-emoji",
+      "logos",
+      "material-symbols-light",
+      "skill-icons",
+    ]),
   ],
 };
