@@ -16,6 +16,7 @@ export default {
       "logos",
       "material-symbols-light",
       "skill-icons",
+      "simple-icons",
     ]),
   ],
 };
